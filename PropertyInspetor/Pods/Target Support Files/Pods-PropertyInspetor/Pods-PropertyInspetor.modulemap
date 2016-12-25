@@ -1,0 +1,6 @@
+framework module Pods_PropertyInspetor {
+  umbrella header "Pods-PropertyInspetor-umbrella.h"
+
+  export *
+  module * { export * }
+}
