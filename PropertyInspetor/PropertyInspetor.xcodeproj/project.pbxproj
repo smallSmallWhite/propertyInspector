@@ -14,6 +14,12 @@
 		843A0CA41E0FFC6600C8BFE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A0CA21E0FFC6600C8BFE4 /* LaunchScreen.storyboard */; };
 		843A0CAF1E0FFC6600C8BFE4 /* PropertyInspetorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A0CAE1E0FFC6600C8BFE4 /* PropertyInspetorTests.swift */; };
 		843A0CBA1E0FFC6600C8BFE4 /* PropertyInspetorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A0CB91E0FFC6600C8BFE4 /* PropertyInspetorUITests.swift */; };
+		84C312A51E113873006D952E /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C312A41E113873006D952E /* Http.swift */; };
+		84C312A71E113A14006D952E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C312A61E113A14006D952E /* Config.swift */; };
+		84C312AC1E113EBB006D952E /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C312AB1E113EBB006D952E /* RadioModel.swift */; };
+		84C312AF1E1141D3006D952E /* RadioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C312AD1E1141D3006D952E /* RadioCell.swift */; };
+		84C312B01E1141D3006D952E /* RadioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C312AE1E1141D3006D952E /* RadioCell.xib */; };
+		84C312B21E114949006D952E /* WechatIMG1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84C312B11E114949006D952E /* WechatIMG1.jpeg */; };
 		DDAFB110F01FC7053A053DC5 /* Pods_PropertyInspetor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1128B8CC8AE2B0E3307310CB /* Pods_PropertyInspetor.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +46,7 @@
 		6A8C71BE22391BCE3D57F51F /* Pods-PropertyInspetor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyInspetor.release.xcconfig"; path = "Pods/Target Support Files/Pods-PropertyInspetor/Pods-PropertyInspetor.release.xcconfig"; sourceTree = "<group>"; };
 		843A0C961E0FFC6500C8BFE4 /* PropertyInspetor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyInspetor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843A0C991E0FFC6500C8BFE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		843A0C9B1E0FFC6500C8BFE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843A0C9B1E0FFC6500C8BFE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = PropertyInspetor/ViewController.swift; sourceTree = "<group>"; };
 		843A0C9E1E0FFC6500C8BFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		843A0CA01E0FFC6600C8BFE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843A0CA31E0FFC6600C8BFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		843A0CB51E0FFC6600C8BFE4 /* PropertyInspetorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertyInspetorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843A0CB91E0FFC6600C8BFE4 /* PropertyInspetorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyInspetorUITests.swift; sourceTree = "<group>"; };
 		843A0CBB1E0FFC6600C8BFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C312A41E113873006D952E /* Http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Http.swift; sourceTree = "<group>"; };
+		84C312A61E113A14006D952E /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		84C312AB1E113EBB006D952E /* RadioModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
+		84C312AD1E1141D3006D952E /* RadioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioCell.swift; sourceTree = "<group>"; };
+		84C312AE1E1141D3006D952E /* RadioCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadioCell.xib; sourceTree = "<group>"; };
+		84C312B11E114949006D952E /* WechatIMG1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WechatIMG1.jpeg; path = ../WechatIMG1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,10 @@
 		843A0C8D1E0FFC6400C8BFE4 = {
 			isa = PBXGroup;
 			children = (
+				84C312AA1E113B17006D952E /* C */,
+				84C312A91E113B0F006D952E /* V */,
+				84C312A81E113B01006D952E /* M */,
+				84C312A31E1137AA006D952E /* Public */,
 				843A0C981E0FFC6500C8BFE4 /* PropertyInspetor */,
 				843A0CAD1E0FFC6600C8BFE4 /* PropertyInspetorTests */,
 				843A0CB81E0FFC6600C8BFE4 /* PropertyInspetorUITests */,
@@ -113,10 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				843A0C991E0FFC6500C8BFE4 /* AppDelegate.swift */,
-				843A0C9B1E0FFC6500C8BFE4 /* ViewController.swift */,
 				843A0C9D1E0FFC6500C8BFE4 /* Main.storyboard */,
 				843A0CA01E0FFC6600C8BFE4 /* Assets.xcassets */,
 				843A0CA21E0FFC6600C8BFE4 /* LaunchScreen.storyboard */,
+				84C312B11E114949006D952E /* WechatIMG1.jpeg */,
 				843A0CA51E0FFC6600C8BFE4 /* Info.plist */,
 			);
 			path = PropertyInspetor;
@@ -138,6 +154,40 @@
 				843A0CBB1E0FFC6600C8BFE4 /* Info.plist */,
 			);
 			path = PropertyInspetorUITests;
+			sourceTree = "<group>";
+		};
+		84C312A31E1137AA006D952E /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				84C312A41E113873006D952E /* Http.swift */,
+				84C312A61E113A14006D952E /* Config.swift */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		84C312A81E113B01006D952E /* M */ = {
+			isa = PBXGroup;
+			children = (
+				84C312AB1E113EBB006D952E /* RadioModel.swift */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		84C312A91E113B0F006D952E /* V */ = {
+			isa = PBXGroup;
+			children = (
+				84C312AD1E1141D3006D952E /* RadioCell.swift */,
+				84C312AE1E1141D3006D952E /* RadioCell.xib */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		84C312AA1E113B17006D952E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				843A0C9B1E0FFC6500C8BFE4 /* ViewController.swift */,
+			);
+			name = C;
 			sourceTree = "<group>";
 		};
 		AD7E1E4FABE4B925811C9CC6 /* Pods */ = {
@@ -257,6 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				843A0CA41E0FFC6600C8BFE4 /* LaunchScreen.storyboard in Resources */,
+				84C312B01E1141D3006D952E /* RadioCell.xib in Resources */,
+				84C312B21E114949006D952E /* WechatIMG1.jpeg in Resources */,
 				843A0CA11E0FFC6600C8BFE4 /* Assets.xcassets in Resources */,
 				843A0C9F1E0FFC6500C8BFE4 /* Main.storyboard in Resources */,
 			);
@@ -332,7 +384,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				843A0C9C1E0FFC6500C8BFE4 /* ViewController.swift in Sources */,
+				84C312AF1E1141D3006D952E /* RadioCell.swift in Sources */,
+				84C312A71E113A14006D952E /* Config.swift in Sources */,
 				843A0C9A1E0FFC6500C8BFE4 /* AppDelegate.swift in Sources */,
+				84C312AC1E113EBB006D952E /* RadioModel.swift in Sources */,
+				84C312A51E113873006D952E /* Http.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
